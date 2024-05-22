@@ -1,0 +1,81 @@
+/**Mobile Css**/
+
+@media screen and (max-width: 600px){
+    body {
+        font-size: var(--gap-mob-l)
+    }
+    .header__actions {
+         display: none;
+     }
+    .header__container {
+        padding-inline: var(--gap-xs);
+    }
+    .li__text {
+        display: none;
+    }
+    .mobile__menu {
+        display: initial;
+    }
+    .li__button {
+        padding-inline: var(--gap-xs);
+        padding-block: var(--gap-xs);
+        border-radius: var(--gap-s);
+        font-size: var(--gap-xs);
+    }
+    .event-banner__img {
+        position: initial;
+        top: initial;
+    }
+    .event-time__container {
+        display: none;
+    }
+    .event-page {
+        margin-block: initial;
+        padding: initial;
+    }
+    .event-description-top {
+        margin-block: var(--gap-s);
+    }
+    .event-tittle__container {
+        margin-left: 0;
+    }
+    .event-description-top-buttons {
+        display: flex;
+        flex-direction: row;
+    }
+    .event-description-bottom {
+        display: flex;
+        flex-direction: column-reverse; }
+    .events-hidden {
+        display: none;
+    }
+    .google-maps {
+        position: relative;
+        padding-bottom: 75%;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        width: 90%;
+        height: 100%;
+    }
+    .buy_sticky {
+        display: none;
+    }
+    .footer-global {
+        align-items: center;
+    }
+    .footer-top {
+        align-items: center;
+    }
+    .footer-nav {
+        justify-content: center;
+    }
+    .button-footer {
+        position: initial;
+        align-self: center;
+    }
+
+}
+
+
